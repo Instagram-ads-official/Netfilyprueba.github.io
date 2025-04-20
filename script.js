@@ -15,8 +15,8 @@ document.getElementById('btn-whatsapp').addEventListener('click', () => {
   fbq('trackCustom', 'WhatsAppRedirect', { fbc });
 
   // 2.2) Construir URL de WhatsApp
-  const whatsappNumber = '5491160411705';
-  const mensajeBase = 'Hola, vengo por el bono de bienvenida del 𝟐𝟎𝟎%, ¿me creas un usuario?';
+  const whatsappNumber = '5491160413723';
+  const mensajeBase = 'Hola, vengo por el bono de bienvenida del 200%🎁, ¿me creas un usuario?';
   const mensaje = `${mensajeBase}\nMi Código Promocional es: ${fbc}`;
   const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensaje)}`;
 
